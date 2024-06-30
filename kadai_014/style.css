@@ -1,0 +1,39 @@
+/* bodyのフォントを指定します */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+/* class=google-fontsを指定します */
+.google-fonts {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;    
+}
+
+/* ルート要素の文字サイズを指定します */
+html {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* h1のフォントサイズを指定します */
+h1 {
+    font-size: 2rem;
+    letter-spacing: 1.2em;
+    text-shadow: 1px 1px 2px gray;
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+/* spanタグのフォントを指定します */
+.skyblue {
+    color: skyblue;
+}
+.pink {
+    color: rgb(255, 192, 203);
+}
+
+/* id=basicのフォント指定します */
+#basic p {
+    font-weight: bold;
+}
